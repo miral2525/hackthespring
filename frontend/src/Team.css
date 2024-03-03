@@ -1,0 +1,48 @@
+.one1 {
+    position: absolute;
+    top: 2250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 20px auto;
+    /* Centers the container horizontally */
+    color: black;
+    /* Remove position, top, left, and text-align properties */
+}
+
+.teamtitle {
+    position: absolute;
+    top: 2200px;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    /* Adds some space between the title and the container */
+}
+
+/* p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+} */
+
+.doctors {
+    text-align: center;
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    /* Adds some space between the cards */
+    /* Remove position, top, left, and text-align properties */
+}

@@ -1,0 +1,51 @@
+#feedback-section {
+    position: relative; /* Make sure the element is positioned */
+    top: 1785px; /* Position the element 3000px down from the top */
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+
+.feedback-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feedback-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form-container {
+    margin-top: 20px;
+}
+
+.feedback-section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback-input-group {
+    margin-bottom: 20px;
+}
+
+.feedback-form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+.feedback-submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 800px;
+}
+
+.feedback-submit-btn:hover {
+    background-color: #0056b3;
+}

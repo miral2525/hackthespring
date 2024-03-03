@@ -1,0 +1,19 @@
+.contain {
+    position: absolute; 
+    top: 0;
+    left: 1000px; 
+    transform: translateX(-50%);
+    animation: show 1s ease-in-out;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes show {
+    0% {
+      top: -100%; 
+    }
+    100% {
+      
+      top: 250px;
+    }
+  }
+  

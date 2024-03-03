@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-animate-on-scroll": "^2.1.7"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}

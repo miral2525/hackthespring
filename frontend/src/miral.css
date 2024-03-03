@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:aliceblue;
+  }
+  .medical {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .medical,
+  .doctor1 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .doctor1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .doctor1 p {
+    flex: 0 0 45%;
+    margin-bottom: 5px;
+  }
+  
+  .doctor1 p b {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .doctor1{
+    background-image: url("doctor1.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+
+
+
+
+
+
+
+  .medical,
+  .doctor2 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .doctor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .doctor2 p {
+    flex: 0 0 45%;
+    margin-bottom: 5px;
+  }
+  
+  .doctor2 p b {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .doctor2{
+    background-image: url("doctor2.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+
+
+
+
+
+  .medical,
+  .doctor3 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .doctor3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .doctor3 p {
+    flex: 0 0 45%;
+    margin-bottom: 5px;
+  }
+  
+  .doctor3 p b {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .doctor3{
+    background-image: url("doctor3.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+
+
+
+
+
+
+
+  .medical,
+  .doctor4 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .doctor4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .doctor4 p {
+    flex: 0 0 45%;
+    margin-bottom: 5px;
+  }
+  
+  .doctor4 p b {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .doctor4{
+    background-image: url("doctor4.png");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+  }

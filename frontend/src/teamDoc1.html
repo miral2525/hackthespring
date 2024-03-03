@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>team doc 1</title>
+    <link rel="stylesheet" href="miral.css">
+    <!-- <link rel="stylesheet" href="Umang.scss"> -->
+
+</head>
+
+<body>
+
+
+    <p class="medical">Name:</p>
+    <hr>
+    <p><b>Degree: </b></p>
+    <p><b>Specialization: </b></p>
+    <p><b>Contact: </b></p>
+    <p><b>Email: </b></p>
+
+    <div class="doctor1">
+
+    </div>
+
+    <!-- <h2 class="wordCarousel">Be strong be healthy</h2> -->
+
+    <h4 class="wordCarousel">
+        <span><b><i>WAYS TO STAY HEALTHY</i></b> </span>
+        <hr />
+
+        <br></br>
+        <div>
+
+            <ul class="flip5" id="listItems">
+            </ul>
+        </div>
+    </h4>
+
+    <script>
+        const items = [
+            { text: 'Eat well, move more', icon: 'fa fa-apple' },
+            { text: 'Avoid Junk Food', icon: 'fa-solid fa-pizza-slice' },
+            { text: 'Exercise daily', icon: 'fa-solid fa-dumbbell' },
+            { text: 'Stress less, sleep well', icon: 'fa fa-bed' },
+            { text: 'Listen to your body', icon: 'fa fa-stethoscope' }
+        ];
+
+        const list = document.getElementById('listItems');
+
+        items.forEach(item => {
+            const li = document.createElement('li');
+            li.innerHTML = `${item.text} <i class="${item.icon}" aria-hidden="true"></i>`;
+            list.appendChild(li);
+        });
+    </script>
+</body>
+
+</html>

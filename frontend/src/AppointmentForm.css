@@ -1,0 +1,68 @@
+/* Overall section styling */
+#appointment-section .container{
+    top:2650px;
+    width: 85%;
+    margin-left: 65px;
+}
+#appointment-section {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 50px 0; /* Top and bottom padding */
+  }
+  
+  /* Image section styling */
+  .image-container {
+    text-align: center; /* Center align image */
+  }
+  
+  .img-responsive {
+    width: 300px; /* Adjust image width as needed */
+    border-radius: 50%; /* Add rounded corners */
+  }
+  
+  /* Form section styling */
+  .form-container {
+    background-color: #fff; /* White background for form */
+    padding: 30px; /* Padding for form elements */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners for form */
+    height: 600px;
+  }
+  
+  .section-title {
+    margin-bottom: 20px; /* Spacing below title */
+    text-align: center; /* Center align title */
+  }
+  
+  .form-control {
+    margin-bottom: 10px; /* Spacing between form elements */
+    width: 350px;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* Light blue shadow on focus */
+  }
+  
+  button[type="submit"] {
+    /* margin-top: 5px; */
+    background-color: white; /* Blue button background */
+    color: black; /* White button text */
+    border: 1px solid black; /* Remove default button border */
+    width: 350px;
+    /* border-radius */
+}
+
+.submit-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: white;
+}
+

@@ -1,0 +1,54 @@
+.patient-info-container1 {
+  width: 900px;
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+.patient-info-container1 h2 {
+  text-decoration: underline;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.patient-info-container1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.patient-info-container1 li {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.family-history-textarea1 {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+
+}
+
+.patient-symptoms-textarea1 {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+}

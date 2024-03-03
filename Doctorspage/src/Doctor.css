@@ -1,0 +1,20 @@
+.Doctor {
+    height: 200px;
+    width: 300px;
+    position: absolute; 
+    top: 0;
+    left: 1000px; 
+    transform: translateX(-50%);
+    animation: show1 1s ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes show1{
+    0% {
+        top: -250px;
+    }
+
+    100% {
+        top:250px;
+    }
+}
